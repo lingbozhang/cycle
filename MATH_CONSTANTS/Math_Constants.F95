@@ -1,0 +1,42 @@
+! . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+! .                                                                       
+! .                            LOOP  V0.1                                 
+! .                                                                       
+! .    Math_Constants 
+! .
+! .    Copyright(c) 2016-2056 Lingbo Zhang      
+! .    Author: Lingbo Zhang 
+! .    06/03/2016 at Massachusetts Institute of Technology
+! .    EMAIL: lingboz2015@gmail.com
+! .
+! . . . . . . . . . . . . . .  . . .  . . . . . . . . . . . . . . . . . . .
+       MODULE MATH_CONSTANTS
+!
+       IMPLICIT NONE
+       INTEGER, PARAMETER :: DP = KIND(1.D0)
+       REAL(DP),PARAMETER :: DEG_PER_RAD = 57.295779513082320876798155_DP
+       REAL(DP),PARAMETER :: RAD_PER_DEG = 0.017453292519943295769237_DP
+!
+       REAL(DP),PARAMETER :: E_VALUE     = 2.718281828459045235360287_DP
+       REAL(DP),PARAMETER :: E_RECIP     = 0.3678794411714423215955238_DP
+       REAL(DP),PARAMETER :: E_SQUARED   = 7.389056098930650227230427_DP
+       REAL(DP),PARAMETER :: LOG10_OF_E  = 0.4342944819032518276511289_DP
+!
+       REAL(DP),PARAMETER :: LN_2        = 0.693147180559945309417232121_DP
+       REAL(DP),PARAMETER :: LN_10       = 2.3025850929940456840179915_DP
+       REAL(DP),PARAMETER :: LOG10_OF_2  = 0.3010299956639811952137389_DP
+!
+       REAL(DP),PARAMETER :: PI_VALUE    = 3.141592653589793238462643_DP
+       REAL(DP),PARAMETER :: PI_LN       = 1.144729885849400174143427_DP
+       REAL(DP),PARAMETER :: PI_LOG10    = 0.4971498726941338543512683_DP
+       REAL(DP),PARAMETER :: PI_OVER_2   = 1.570796326794896619231322_DP
+       REAL(DP),PARAMETER :: PI_OVER_3   = 1.047197551196597746154214_DP
+       REAL(DP),PARAMETER :: PI_OVER_4   = 0.7853981633974483096156608_DP
+       REAL(DP),PARAMETER :: PI_RECIP    = 0.3183098861837906715377675_DP
+       REAL(DP),PARAMETER :: PI_SQUARED  = 9.869604401089358618834491_DP
+       REAL(DP),PARAMETER :: PI_SQ_ROOT  = 1.772453850905516027298167_DP
+!
+       REAL(DP),PARAMETER :: SQ_ROOT_OF_2= 1.4142135623730950488_DP
+       REAL(DP),PARAMETER :: SQ_ROOT_OF_3= 1.7320508075688772935_DP
+!       
+       END MODULE MATH_CONSTANTS
