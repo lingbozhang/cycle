@@ -1,0 +1,16 @@
+CYCLE is a 3D static finite element analysis program
+
+
+The core Modules includes
+
+* DISCOVERY.F95     :: main program
+* INTERPRETER.F95   :: text parsing scripts
+* FILEM.F95         :: file manipulations
+* INPUTM.F95        :: input module: read and generate input data
+* GENERATEM.F95     :: generation module: generate the stiff matrix for analysis
+* SOLVERM.F95       :: linear and dynamic solvers
+* OUTPUTM.F95       :: calculate the displacement and stress field, output data
+
+
+Comments, suggestions and bug reports welcome. Email Lingbo Zhang,
+lingboz2015@gmail.com
